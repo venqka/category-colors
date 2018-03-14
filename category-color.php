@@ -21,7 +21,7 @@ function cc_admin_enqueue() {
 add_action( 'admin_enqueue_scripts', 'cc_admin_enqueue' );
 
 //Add color picker to category
-function sh_cc_field_on_add_new_category( $taxonomy ) {
+function cc_field_on_add_new_category( $taxonomy ) {
 
   ?>
 
